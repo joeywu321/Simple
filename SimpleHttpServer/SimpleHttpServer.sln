@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleHttpServer", "SimpleHttpServer.vcxproj", "{68B35372-C27F-493A-AE82-B4EB1B37B4B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B35372-C27F-493A-AE82-B4EB1B37B4B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68B35372-C27F-493A-AE82-B4EB1B37B4B5}.Debug|Win32.Build.0 = Debug|Win32
+		{68B35372-C27F-493A-AE82-B4EB1B37B4B5}.Release|Win32.ActiveCfg = Release|Win32
+		{68B35372-C27F-493A-AE82-B4EB1B37B4B5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
