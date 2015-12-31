@@ -1,21 +1,14 @@
-﻿Build started 2015/5/12 下午 02:12:54.
-     1>Project "C:\Users\user\Documents\GitHub\Test\SimpleHttpServer\SimpleHttpServer.vcxproj" on node 2 (Build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\SimpleHttpServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\SimpleHttpServer.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SimpleHttpServer.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SimpleHttpServer.cpp
+﻿已經開始建置於 2015/12/31 下午 01:54:59。
+     1>節點 2 (Build 目標) 上的專案 "C:\test\Simple\SimpleHttpServer\SimpleHttpServer.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SimpleHttpServer.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SimpleHttpServer.cpp
          SimpleHttpServer.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\GitHub\Test\SimpleHttpServer\Debug\SimpleHttpServer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Documents\GitHub\Test\SimpleHttpServer\Debug\SimpleHttpServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\GitHub\Test\SimpleHttpServer\Debug\SimpleHttpServer.lib" /MACHINE:X86 Debug\SimpleHttpServer.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\test\Simple\SimpleHttpServer\Debug\SimpleHttpServer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\test\Simple\SimpleHttpServer\Debug\SimpleHttpServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\test\Simple\SimpleHttpServer\Debug\SimpleHttpServer.lib" /MACHINE:X86 Debug\SimpleHttpServer.obj
          Debug\stdafx.obj
-         SimpleHttpServer.vcxproj -> C:\Users\user\Documents\GitHub\Test\SimpleHttpServer\Debug\SimpleHttpServer.exe
-       FinalizeBuildStatus:
-         Deleting file "Debug\SimpleHttpServer.unsuccessfulbuild".
-         Touching "Debug\SimpleHttpServer.lastbuildstate".
-     1>Done Building Project "C:\Users\user\Documents\GitHub\Test\SimpleHttpServer\SimpleHttpServer.vcxproj" (Build target(s)).
+         SimpleHttpServer.vcxproj -> C:\test\Simple\SimpleHttpServer\Debug\SimpleHttpServer.exe
+     1>專案 "C:\test\Simple\SimpleHttpServer\SimpleHttpServer.vcxproj" (Build 目標) 建置完成。
 
-Build succeeded.
+建置成功。
 
-Time Elapsed 00:00:00.72
+經過時間 00:00:00.84

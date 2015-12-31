@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+//#include <unistd.h>
 #include <sys/types.h> 
 #ifdef WIN32
 #include <winsock.h>
@@ -41,7 +41,7 @@ int main()
 
 	int sock = socket(AF_INET, SOCK_STREAM, 0);
 	if (sock < 0)
-		return 0;
+		return 1;
 
 	//setsockopt(sock, SOL_SOCKET, SO_REUSEADDR, &one, sizeof(int));
 	int opt =  1;
